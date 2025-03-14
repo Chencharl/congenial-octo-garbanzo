@@ -8,7 +8,7 @@ The goal is to maximize test accuracy while keeping the model under 5 million pa
 We used the dataset from kaggle: CIFAR-10, which contains 60,000 32x32 color images across 10 classes.
 
 ## 🚀Method
-We made five versions to continuously optimize the model, and the following are the main methods for our model design:
+We made four versions to continuously optimize the model, and the following are the main methods for our model design:
 ⚡️RandAugment
 ⚡️MixUp Implementation
 ⚡️Rectified Adam
