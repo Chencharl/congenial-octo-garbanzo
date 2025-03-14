@@ -10,9 +10,21 @@ We used the dataset from kaggle: CIFAR-10, which contains 60,000 32x32 color ima
 ## 🚀Method
 We made four versions to continuously optimize the model, and the following are the main methods for our model design:
 ⚡️RandAugment
+
 ⚡️MixUp Implementation
+
 ⚡️Rectified Adam
+
 ⚡️ReduceLROnPlateau
+
+## Summary of Architectural Changes Across Versions
+
+| Version | Key Changes |
+|---------|------------|
+| **V1**  | Initial ResNet design with 3 residual blocks. |
+| **V2**  | Introduced MixUp data augmentation to improve generalization. |
+| **V3**  | Increased depth (added residual blocks), reduced initial channels (64→32), restructured feature extraction. |
+| **V4**  | Switched optimizer to RAdam, introduced learning rate scheduler, adjusted training epochs. |
 
 
 ## 🚀Conclusion
