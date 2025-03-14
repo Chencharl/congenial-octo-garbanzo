@@ -13,6 +13,7 @@ We made five versions to continuously optimize the model, and the following are 
 ⚡️MixUp Implementation
 ⚡️Rectified Adam
 ⚡️ReduceLROnPlateau
+⚡️
 
 ## 🚀Conclusion
 Finally, achieved almost 90% accuracy on the CIFAR-10 dataset on local running and successfully kept parameters under 5 million.
