@@ -14,8 +14,9 @@ We used the dataset from kaggle: CIFAR-10, which contains 60,000 32x32 color ima
 90% of the images were used for training, while 10% were reserved for validation.
 The dataset was converted into PyTorch tensors for efficient batch processing.
 #### Model Design
-**The First Version** of our ResNet implementation was the initial design, consisting of an initial convolutional layer followed by three residual blocks (ResidualBlock).  
-**The Second Version** introduced **MixUp Data Augmentation**, implementing the mixup_data function to linearly mix images and labels during training with α=0.2. 
-**The Third Version expanded the model’s depth by adding additional residual blocks to each stage**, restructuring each stage to contain three stacked residual blocks instead of two.  
-**The Fourth Version** focused on optimizing training efficiency and model stability. 
+We made five versions to continuously optimize the model, and the following is our model design for each version。
+The First Version，initial design with an initial convolutional layer followed by three residual blocks (ResidualBlock).  
+The Second Version, MixUp Data Augmentation, implementing the mixup_data function to linearly mix images and labels during training with α=0.2. 
+The Third Version, expanded the model’s depth by adding additional residual blocks to each stage, restructuring each stage to contain three stacked residual blocks instead of two.  
+The Fourth Version, focused on optimizing training efficiency and model stability. 
 These changes collectively improved the model’s performance and stability during training.
