@@ -13,3 +13,4 @@ We used the dataset from kaggle: CIFAR-10, which contains 60,000 32x32 color ima
 #### Split the training and validation sets
 90% of the images were used for training, while 10% were reserved for validation.
 The dataset was converted into PyTorch tensors for efficient batch processing.
+### Model Design
