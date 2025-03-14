@@ -6,3 +6,6 @@ The goal is to maximize test accuracy while keeping the model under 5 million pa
 
 ## Dataset
 We used the dataset from kaggle: CIFAR-10, which contains 60,000 32x32 color images across 10 classes.
+## Project Procedure
+### Data Preparation
+#### Load the CIFAR-10 Dataset
