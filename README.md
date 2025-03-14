@@ -15,7 +15,7 @@ We made five versions to continuously optimize the model, and the following are 
 ⚡️ReduceLROnPlateau
 
 ## 🚀Conclusion
-Finally, achieved almost 90% accuracy on the CIFAR-10 dataset and successfully kept parameters under 5 million.
+Finally, achieved almost 90% accuracy on the CIFAR-10 dataset on local running and successfully kept parameters under 5 million.
 
 ## 🔗Reference
 Zhang, H.; Cisse, M.; Dauphin, Y. N.; and Lopez-Paz, D. 2017. Mixup: Beyond empirical risk minimization. In International Conference on Learning Representations (ICLR).
