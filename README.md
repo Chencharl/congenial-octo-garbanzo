@@ -1,4 +1,4 @@
-# congenial-octo-garbanzo
+# Deep Learning - CIFAR 10 classification
 ## 🚀Project Overview
 This project is a competition from Kaggle, we used a Custom ResNet model for classifying images from the CIFAR-10 dataset. 
 The model is trained using PyTorch, incorporating data augmentation, label smoothing, and learning rate scheduling for optimal performance. 
