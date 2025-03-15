@@ -32,7 +32,7 @@ Finally, achieved almost 90% accuracy on the CIFAR-10 dataset on local running a
 
 
 ## 📃Files
-main.ipynb – Contains the final version of the model with the best performance. Run this file to reproduce the results.
+main.ipynb – Contains the final version of the model with the best performance. Run this file to reproduce the results.\
 model_optimization_versions.ipynb – Shows the model optimization process, including different versions and improvements made.
 
 ## 🔗Reference
